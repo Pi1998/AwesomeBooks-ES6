@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- You can find the website [here](https://transcendent-biscochitos-37c1a7.netlify.app/)
+- You can find the website [here](https://pi1998.github.io/AwesomeBooks-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
