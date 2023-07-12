@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-classes-per-file */
-import Book from "./modules/bookModule.js";
-import { homeClick, addClick, contactClick } from "./modules/eventHandlerModule.js";
-import { DateTime } from "./modules/luxon/build/es6/luxon.js";
+import Book from './modules/bookModule.js';
+import { homeClick, addClick, contactClick } from './modules/eventHandlerModule.js';
+import { DateTime } from './modules/luxon/build/es6/luxon.js';
 
 window.getCurrentDateTime = function () {
   return DateTime.local();
@@ -12,16 +12,17 @@ window.formatDateTime = function (dateTime, format) {
   return dateTime.toFormat(format);
 };
 
-window.updateDateTime = function () {
-  const currentDateTime = getCurrentDateTime();
-  const formattedDateTime = formatDateTime(currentDateTime, "yyyy-MM-dd HH:mm:ss");
+const updateDateTime = function () {
+  const currentDateTime = window.getCurrentDateTime();
+  const formattedDateTime = window.formatDateTime(currentDateTime, 'yyyy-MM-dd HH:mm:ss');
 
-  const datetimeDiv = document.getElementById("datetime");
+  const datetimeDiv = document.getElementById('datetime');
   datetimeDiv.textContent = formattedDateTime;
 };
 
 updateDateTime();
 setInterval(updateDateTime, 1000);
+
 class BookCollection {
   constructor() {
     this.bookData = [];
