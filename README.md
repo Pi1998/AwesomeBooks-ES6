@@ -3,7 +3,7 @@
 
 <div align="center">
   <br/>
-  <h3><b> Awesome Books Project</b></h3>
+  <h3><b> Awesome Books Project with ES6</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -42,6 +42,7 @@
 - CSS.
 - JavaScript
 - LINTERS.
+- Luxon
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -60,6 +61,7 @@
 - **Use of medium-fidelity wireframe to build the UI.**
 - **Customized for both mobile and desktop devices.**
 - **Navigation and Animations**
+- **Use of modules**
 
 <!-- ![Screenshot](./images/Screenshot%202.png) -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,11 +152,6 @@ sh
 - GitHub: [@Pi1998](https://github.com/Pi1998)
 - Twitter: [@Pi1998](https://twitter.com/)
 
-👤 **Ochieng Steven Otieno**
-
-- GitHub: [@Ochiengsteven](https://github.com/Ochiengsteven)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/steven-ochieng-a43125179/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -180,7 +177,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, create a pull request or hit us up on [Pi](https://twitter.com/) or [@Ochiengsteven](https://github.com/Ochiengsteven)
+If you like this project, create a pull request or hit us up on [Pi](https://github.com/Pi1998) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +185,7 @@ If you like this project, create a pull request or hit us up on [Pi](https://twi
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- We thank Microverse Reviewers for reviewing our pull requests.
+- I truely appreciate Microverse Reviewers for reviewing pull requests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
